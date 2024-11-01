@@ -8,7 +8,7 @@ from socket_client_handler import ClientHandler
 SOCKET_PORT = os.environ.get('SOCKET_PORT', '8024')
 SOCKET_PORT = int(SOCKET_PORT)
 
-#this main function
+#this main function is added by shekhar to test git commands 
 def main():
     # Create a TCP/IP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
